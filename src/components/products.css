@@ -1,0 +1,24 @@
+.products {
+  padding: 20px;
+}
+
+.products input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.products button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.product-table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  padding: 8px;
+  text-align: left;
+}

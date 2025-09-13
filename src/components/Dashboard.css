@@ -1,0 +1,60 @@
+/* Global dark theme */
+body {
+  background: #1e1e1e;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  color: #f0f0f0;
+}
+
+.dashboard {
+  padding: 25px;
+  min-height: 100vh;
+  background: #1e1e1e; /* keep consistent with body */
+}
+
+.dashboard h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #bdbdbd;
+  margin-bottom: 30px;
+}
+
+/* Grid layout like Power BI tiles */
+.module-charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Power BI tile style */
+.chart-card {
+  background: linear-gradient(145deg, #2b2b2b, #1c1c1c);
+  border-radius: 14px;
+  padding: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chart-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.6);
+}
+
+.chart-card h3 {
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* Recharts tooltip text light */
+.recharts-tooltip-wrapper {
+  color: #000;
+}

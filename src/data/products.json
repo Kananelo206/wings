@@ -1,0 +1,53 @@
+
+  [
+    {
+      "id": 1,
+      "name": "Coffee",
+      "description": "Freshly brewed Arabica coffee",
+      "category": "Beverages",
+      "price": 25,
+      "quantity": 50
+    },
+    {
+      "id": 2,
+      "name": "Espresso",
+      "description": "Strong, rich espresso shot",
+      "category": "Beverages",
+      "price": 30,
+      "quantity": 40
+    },
+    {
+      "id": 3,
+      "name": "Cappuccino",
+      "description": "Espresso with steamed milk and foam",
+      "category": "Beverages",
+      "price": 35,
+      "quantity": 30
+    },
+    {
+      "id": 4,
+      "name": "Spaghetti",
+      "description": "Homemade pasta with tomato sauce",
+      "category": "Meals",
+      "price": 60,
+      "quantity": 20
+    },
+    {
+      "id": 5,
+      "name": "Sandwich",
+      "description": "Grilled chicken sandwich with lettuce and mayo",
+      "category": "Snacks",
+      "price": 40,
+      "quantity": 25
+    },
+    {
+      "id": 6,
+      "name": "Muffin",
+      "description": "Chocolate chip muffin",
+      "category": "Bakery",
+      "price": 15,
+      "quantity": 35
+    }
+  ]
+  
+  
